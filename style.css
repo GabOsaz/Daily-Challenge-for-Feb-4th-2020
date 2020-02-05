@@ -1,0 +1,50 @@
+::-webkit-input-placeholder {
+  color: #626262;
+}
+::-moz-placeholder {
+  color: #626262;
+}
+:-moz-placeholder {  
+  color: #626262;
+}
+:-ms-input-placeholder {
+  color: #626262;
+}
+
+input[type=text] {
+  width: 20%;
+  margin-top: 5px;
+  transition: width 1s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 80%;
+}
+
+.btn {
+  background: lightblue;
+  border: 1px solid rgb(93, 93, 185);
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  left: 90px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: .7;
+  z-index: 2;
+}
+
+#btnControl {
+  display: none;
+}
+
+#btnControl:checked + label {
+  border: none;
+  background: none;
+}
+
+form {
+  margin-top: 20px;
+}
